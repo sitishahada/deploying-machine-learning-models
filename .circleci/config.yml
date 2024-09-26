@@ -58,11 +58,6 @@ jobs:
           name: Railway token link
           command: RAILWAY_TOKEN= fc1f0cdb-a81d-402e-9677-049f531d04a0 railway run
       - run:
-          name: Link Railway Project
-          command: |
-              cd section-07-ci-and-publishing/house-prices-api
-              railway link 
-      - run:
           name: Deploy to Railway
           command: |
               cd section-07-ci-and-publishing/house-prices-api
